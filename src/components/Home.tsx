@@ -8,7 +8,7 @@ type seachProp = {
 
 const Home = (props:seachProp) => {
 
-  const [menu,setMenu] = useState("")
+  const [menu,] = useState("")
 
   return (
     <div className="min-h-screen w-screen bg-gray-100 grid grid-cols-6">

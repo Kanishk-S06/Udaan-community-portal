@@ -18,7 +18,7 @@ const Rightbar = (props: searchProp) => {
   const questionRef = collection(storage, "questions");
   const [questionData, setQuestionData] = useState<any>([]);
   const [commentToggle, setCommentToggle] = useState<string | null>(null); // To track which question's comments are open
-  const [questionId, setQuestionId] = useState("");
+  const [, setQuestionId] = useState("");
   const [answers, setAnswers] = useState("");
   const [post, setPost] = useState(false);
   const [answerData, setAnswerData] = useState<any>([]);
